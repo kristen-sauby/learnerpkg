@@ -18,5 +18,22 @@ the behind-the-scenes code that generated these pages and functionality.
 Get started with
 [learnerpkg](https://kristen-sauby.github.io/learnerpkg/):
 
-    # Run once to configure your package to use pkgdown
-    createSentence("I", "happily", "walked", "home")
+    reateSentence("I", "happily", "walked", "home")
+
+## Building the package website
+
+The `pkgdown` package was used to generate this website.
+
+To build a package site like this, follow the package instructions,
+including the following:
+
+::: \# Start by running this to configure the package:
+usethis::use\_pkgdown() \# Build the site with this command
+pkgdown::build\_site() :::
+
+On GitHub, you can set up GitHub Actions to build and publish your site
+every time you commit. You can use GitHub pages to easily create the
+collection of HTML files that encompasses the site. To build the GitHub
+pages, run the following:
+
+::: usethis::use\_pkgdown\_github\_pages() :::
