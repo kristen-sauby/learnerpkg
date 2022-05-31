@@ -18,3 +18,4 @@ Imports:
 Config/testthat/edition: 3
 RoxygenNote: 7.1.2
 RdMacros: Rdpack
+URL: https://kristen-sauby.github.io/learnerpkg/
