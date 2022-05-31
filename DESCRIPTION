@@ -1,0 +1,20 @@
+Package: learnerpkg
+Type: Package
+Title: Example Package
+Version: 0.1.0
+Authors@R: 
+  person("Kristen", "Sauby", email = "ksauby@gmail.com", 
+    role = c("aut", "cre"), comment = c(ORCID = "0000-0002-9750-1770"))
+Description: This package includes examples of how to write functions, 
+  how to test functions, how to include citations, how to use templates, and
+  more.
+License: GPL-2
+Encoding: UTF-8
+LazyData: true
+Suggests: 
+    testthat (>= 3.0.0)
+Imports:
+    Rdpack
+Config/testthat/edition: 3
+RoxygenNote: 7.1.2
+RdMacros: Rdpack
