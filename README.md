@@ -1,3 +1,6 @@
+[![test-coverage](https://github.com/kristen-sauby/learnerpkg/actions/workflows/test_coverage.yml/badge.svg)](https://github.com/kristen-sauby/learnerpkg/actions/workflows/test_coverage.yml)
+[![codecov](https://codecov.io/gh/kristen-sauby/learnerpkg/branch/master/graph/badge.svg?token=QO31LV3X6R)](https://codecov.io/gh/kristen-sauby/learnerpkg)
+
 # Introduction 
 TODO: Give a short introduction of your project. Let this section explain the objectives or the motivation behind this project. 
 
