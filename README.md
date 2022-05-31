@@ -6,3 +6,5 @@
 This is an example R package that includes examples of how to write functions, 
   how to test functions, how to include citations, how to use templates, and
   more.
+Take a look at the package files on GitHub to see the behind-the-scenes code
+that generated these pages and functionality.

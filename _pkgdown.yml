@@ -2,3 +2,14 @@ url: https://kristen-sauby.github.io/learnerpkg/
 template:
   bootstrap: 5
 
+reference:
+- title: "The Example Function"
+  desc: >
+    This package contains two functions to show what is possible when
+    building your own \code{R} package and creating your own website using
+    \code{pkgdown}. The function listed below is *exported*, which means it can
+    easily be called after you have installed and loaded the package. The other
+    function is an error handling function that is *not* exported. You can call
+    it like so: \code{learnerpkg:::handleError_subject}.
+  contents:
+  - createSentence
