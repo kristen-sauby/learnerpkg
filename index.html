@@ -76,8 +76,16 @@
 <h2 id="usage">Usage<a class="anchor" aria-label="anchor" href="#usage"></a>
 </h2>
 <p>Get started with <a href="https://kristen-sauby.github.io/learnerpkg/">learnerpkg</a>:</p>
-<div class="sourceCode" id="cb2"><pre class="sourceCode R"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1"></a><span class="co"># Run once to configure your package to use pkgdown</span></span>
-<span id="cb2-2"><a href="#cb2-2"></a><span class="kw">createSentence</span>(<span class="st">"I"</span>, <span class="st">"happily"</span>, <span class="st">"walked"</span>, <span class="st">"home"</span>)</span></code></pre></div>
+<div class="sourceCode" id="cb2"><pre class="sourceCode R"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1"></a><span class="kw">reateSentence</span>(<span class="st">"I"</span>, <span class="st">"happily"</span>, <span class="st">"walked"</span>, <span class="st">"home"</span>)</span></code></pre></div>
+</div>
+<div class="section level2">
+<h2 id="building-the-package-website">Building the package website<a class="anchor" aria-label="anchor" href="#building-the-package-website"></a>
+</h2>
+<p>The <code>pkgdown</code> package was used to generate this website.</p>
+<p>To build a package site like this, follow the package instructions, including the following:</p>
+<p>::: # Start by running this to configure the package: usethis::use_pkgdown() # Build the site with this command pkgdown::build_site() :::</p>
+<p>On GitHub, you can set up GitHub Actions to build and publish your site every time you commit. You can use GitHub pages to easily create the collection of HTML files that encompasses the site. To build the GitHub pages, run the following:</p>
+<p>::: usethis::use_pkgdown_github_pages() :::</p>
 </div>
 </div>
   </main><aside class="col-md-3"><div class="links">
