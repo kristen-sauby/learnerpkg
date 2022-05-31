@@ -13,3 +13,9 @@ reference:
     it like so: \code{learnerpkg:::handleError_subject}.
   contents:
   - createSentence
+
+repo:
+  url:
+    home: https://github.com/kristen-sauby/learnerpkg
+    issue: https://github.com/kristen-sauby/learnerpkg/issues
+    user: https://github.com/kristen-sauby
